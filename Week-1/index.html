@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CharCodeMove</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="page-header text-center">
+      <h1>Week 1</h1>
+    </div>
+    <p id=explanation>
+      When we use our computer to type in characters and other commands from our keyboard, the computer doesn't see the commands as "A", "B", "C",
+      but instead as numbers (KeyCodes), which then represents a character based which encoding is being used. With this in mind I decided to change
+      the text input through manipulating and using each characters corresponding KeyCode, I did this in two different ways:<br />
+      <strong>KeyCode Shifting</strong> - takes the keycode for every character and shifts it a set amount in one directions, by adding a number to
+      the KeyCode.
+      <br />
+      <strong>KeyCode ordering</strong> - sums up the keycode for each word, and sorts all the words according to their keycode sum, in descending order.
+
+    </p>
+    <div class="row">
+
+      <div class="col-md-5">
+        <textarea id='inputField' placeholder="Insert text to be processed"></textarea>
+      </div>
+      <div class="col-md-2 text-center">
+        <h4>KeyCode shifting</h4>
+        <label><input type="checkbox" id="vowels"> Include vowels when shifting</label>
+        <button id="shiftingBtn" type="button" class="btn btn-default btn-lg">
+          <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+        </button>
+        <br />
+        <br />
+        <h4>KeyCode ordering</h4>
+        <label><input type="checkbox" id="dublicates"> Include dublicates</label>
+        <button id="orderingBtn" type="button" class="btn btn-default btn-lg">
+          <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="col-md-5">
+        <div class="panel panel-default">
+          <div class="panel-heading">Result</div>
+          <div id="result" class="panel-body">
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

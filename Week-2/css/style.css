@@ -1,0 +1,20 @@
+.panel {
+  min-height: 280px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#inputField {
+  width: 100%;
+  min-height: 280px;
+  margin-left: 5px;
+}
+
+button {
+  width: 100%;
+}
+
+#explanation {
+  margin-right: 5px;
+  margin-left: 5px;
+}
