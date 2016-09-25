@@ -1,0 +1,27 @@
+{
+    "listOfPos": [{
+        "description": "Coordinating conjunction",
+        "tag": "cc"
+    }, {
+        "description": "Preposition",
+        "tag": "in"
+    }, {
+        "description": "Adjective",
+        "tag": "jj"
+    }, {
+        "description": "Noun, singular or mass",
+        "tag": "nn"
+    }, {
+        "description": "Personal pronoun",
+        "tag": "prp"
+    }, {
+        "description": "Adverb",
+        "tag": "rb"
+    }, {
+        "description": "Interjection",
+        "tag": "uh"
+    }, {
+        "description": "Verb, base form",
+        "tag": "vb"
+    }]
+}

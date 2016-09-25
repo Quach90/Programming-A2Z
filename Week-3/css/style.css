@@ -1,0 +1,101 @@
+.panel {
+  min-height: 150px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#inputField {
+  width: 100%;
+  min-height: 150px;
+  margin-left: 5px;
+}
+
+button {
+  width: 100%;
+  text-shadow:
+    -1px -1px 0 #FFF,
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF;
+}
+
+.resultText{
+  font-size: 20px;
+}
+
+#explanation {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.box{
+  border-radius: 10px;
+  padding-left: 50px;
+  font-size: 30px;
+  /*box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;*/
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+span:hover {
+  opacity: 0.5;
+}
+
+button[name^="nn"],
+span[name^="nn"]{
+  background-color: red;
+}
+
+button[name^="jj"],
+span[name^="jj"]{
+  background-color: blue;
+}
+
+button[name^="vb"],
+span[name^="vb"]{
+  background-color: green;
+}
+
+button[name^="rb"],
+span[name^="rb"]{
+  background-color: purple;
+}
+
+button[name^="prp"],
+span[name^="prp"]{
+  background-color: orange;
+}
+
+button[name^="pos"],
+span[name^="pos"]{
+  background-color: brown;
+}
+
+button[name^="pdt"],
+span[name^="pdt"]{
+  background-color: violet;
+}
+
+button[name^="uh"],
+span[name^="uh"]{
+  background-color: yellow;
+}
+
+button[name^="cc"],
+span[name^="cc"]{
+  background-color: teal;
+}
+
+button[name^="cd"],
+span[name^="cd"]{
+  background-color: magenta;
+}
+
+button[name^="dt"],
+span[name^="dt"]{
+  background-color: maroon;
+}
+
+button[name^="in"],
+span[name^="in"]{
+  background-color: pink;
+}

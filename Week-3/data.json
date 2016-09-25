@@ -1,0 +1,78 @@
+{
+    "listOfPos": [{
+        "description": "Coordinating conjunction",
+        "tag": "cc"
+    }, {
+        "description": "Cardinal number",
+        "tag": "cd"
+    }, {
+        "description": "Determiner",
+        "tag": "dt"
+    }, {
+        "description": "Preposition or subordinating conjunction",
+        "tag": "in"
+    }, {
+        "description": "Adjective",
+        "tag": "jj"
+    }, {
+        "description": "Adjective, comparative",
+        "tag": "jjr"
+    }, {
+        "description": "Adjective, superlative",
+        "tag": "jjs"
+    }, {
+        "description": "Noun, singular or mass",
+        "tag": "nn"
+    }, {
+        "description": "Noun, plural",
+        "tag": "nns"
+    }, {
+        "description": "Proper noun, singular",
+        "tag": "nnp"
+    }, {
+        "description": "Proper noun, plural",
+        "tag": "nnps"
+    }, {
+        "description": "Predeterminer",
+        "tag": "pdt"
+    }, {
+        "description": "Possessive ending",
+        "tag": "pos"
+    }, {
+        "description": "Personal pronoun",
+        "tag": "prp"
+    }, {
+        "description": "Possessive pronoun",
+        "tag": "prp$"
+    }, {
+        "description": "Adverb",
+        "tag": "rb"
+    }, {
+        "description": "Adverb, comparative",
+        "tag": "rbr"
+    }, {
+        "description": "Adverb, superlative",
+        "tag": "rbs"
+    },  {
+        "description": "Interjection",
+        "tag": "uh"
+    }, {
+        "description": "Verb, base form",
+        "tag": "vb"
+    }, {
+        "description": "Verb, past tense",
+        "tag": "vbd"
+    }, {
+        "description": "Verb, gerund or present participle",
+        "tag": "vbg"
+    }, {
+        "description": "Verb, past participle",
+        "tag": "vbn"
+    }, {
+        "description": "Verb, non-3rd person singular present",
+        "tag": "vbp"
+    }, {
+        "description": "Verb, 3rd person singular present",
+        "tag": "vbz"
+    }]
+}

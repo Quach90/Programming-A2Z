@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Creating Sentences</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <script src="lib/rita-full.js"></script>
+        <script   src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"   integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+
+
+            <div class="page-header text-center">
+                <h1>Week 3</h1>
+            </div>
+            <p id=explanation>
+                For this example I wanted to play with the Part of Speech functionality found in RiTa.js. The idea is to create a sentence, by lining up different POS and then generating words based on these with the help of RiTa.js.<br />
+                To see examples of POS, I made it so that you can add a sentence and process it, to see the POS.<br />
+                Below that there is 8 buttons representing 8 POS, which I chose based on research about POS. When a button is clicked it is added as a color below. The colors/POS can then be rearranged if needed, and the Go button will produce a text using the POS to generate random words.
+            </p>
+            <div class="row">
+              <div class="col-md-5">
+                  <textarea id='inputField' placeholder="Insert text to be processed"></textarea>
+              </div>
+              <div class="col-md-2 text-center">
+                  <h4>See sentence construction</h4>
+                  <button id="shiftingBtn" type="button" class="btn btn-default btn-lg">
+                    <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                  </button>
+              </div>
+              <div class="col-md-5">
+                  <div class="panel panel-default">
+                      <div class="panel-heading">Result</div>
+                      <div id="sentenceResult" class="panel-body">
+
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div id="buttons" class="row">
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-12">
+                    <div id="sortable">
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <button id="go" class="btn btn-default btn-lg">Go</button>
+              </div>
+              <div class="col-md-12">
+                <div id='result'>
+
+                </div>
+              </div>
+            </div>
+        </div>
+    </body>
+
+</html>
